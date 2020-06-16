@@ -1,0 +1,20 @@
+[
+  {
+    "source": "Google Search page is opened",
+    "steps": [
+      {
+        "name": "Google Search page is opened",
+        "aggregatedDurations": {
+          "median": 0.323287,
+          "average": 0.323287
+        },
+        "durations": [
+          {
+            "duration": 0.323287,
+            "location": "file:///Users/julikor/Documents/Cucumber_project/src/test/resources/features/CucumberFirstTest.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

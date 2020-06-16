@@ -1,0 +1,7 @@
+/Users/julikor/Documents/Cucumber_project/src/test/java/hellocucumber/RunCucumberTest.java
+/Users/julikor/Documents/Cucumber_project/src/test/java/hellocucumber/pages/GoogleResultPage.java
+/Users/julikor/Documents/Cucumber_project/src/test/java/hellocucumber/pages/BasePage.java
+/Users/julikor/Documents/Cucumber_project/src/test/java/hellocucumber/steps/StepDefinitions.java
+/Users/julikor/Documents/Cucumber_project/src/test/java/hellocucumber/pages/GoogleSearchPage.java
+/Users/julikor/Documents/Cucumber_project/src/test/java/hellocucumber/utils/BrowserFactory.java
+/Users/julikor/Documents/Cucumber_project/src/test/java/hellocucumber/utils/Waiters.java
