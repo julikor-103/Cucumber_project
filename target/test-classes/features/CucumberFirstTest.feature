@@ -7,4 +7,3 @@ Feature: cucumber first test
     And User clicks on the search link
     Then automationpractice website is opened
 
-    Scenario:
