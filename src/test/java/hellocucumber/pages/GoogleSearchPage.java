@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 public class GoogleSearchPage extends BasePage {
     public static final String GOOGLE_LINK = "https://www.google.com.ua/";
 
-    @FindBy(xpath = "")
+    @FindBy(name = "q")
     private WebElement searchField;
 
     public GoogleSearchPage(WebDriver driver) {

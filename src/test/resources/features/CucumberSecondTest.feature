@@ -1,7 +1,10 @@
-Feature: Second Test
+Feature: cucumber second Test
 
+  @cucumber
   Scenario: Go to search by key word
-    Given Open url by name
-    When Input in search field dress
+    Given Google search page is opened
+    When Searches with text
+    And Open url by name
+    And Input in search field dress
     Then Display menu items
 

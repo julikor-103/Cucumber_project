@@ -4,8 +4,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+
+import java.util.concurrent.TimeUnit;
+
 import static hellocucumber.pages.GoogleResultPage.URL_AUTOPRACTICE;
 import static hellocucumber.steps.Hooks.*;
+import static hellocucumber.utils.Waiters.TIME_TEN;
+import static hellocucumber.utils.Waiters.implicitWait;
 
 
 public class GoogleSearchStepDefinitions {
