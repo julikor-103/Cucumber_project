@@ -11,6 +11,7 @@ public class Waiters {
     public static final int TIME_TEN = 10;
     public static final int TIME_FIVE = 5;
     public static final String ListItemsForClothes = "li.ajax_block_product";
+    public static final String LSearchResultForClothes = "div.product-count";
 
     public static void implicitWait(WebDriver driver, int time, TimeUnit timeUnit) {
         driver.manage().timeouts().implicitlyWait(time, timeUnit);
@@ -24,7 +25,7 @@ public class Waiters {
     public static void waitForVisibilityByCssSelector(WebDriver driver, String selector) {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(selector)));
-    }
 
+    }
 }
 

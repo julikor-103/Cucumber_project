@@ -1,6 +1,7 @@
 package hellocucumber.pages;
 
 import hellocucumber.utils.Waiters;
+import io.qameta.allure.Step;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -24,6 +25,7 @@ public class GoogleResultPage extends BasePage {
         super(driver);
     }
 
+    @Step ("open url by Name")
     public void openUrlByName() {
         implicitWait(driver, TIME_TEN, TimeUnit.SECONDS);
         clickBySearchLink.sendKeys(Keys.ENTER);
